@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ConversorTemperatura.jnlp">
+  <information>
+    <title>ConversorTemperatura</title>
+    <vendor>GabrielTavares</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+  </information>
+  <resources>    <jar href="ConversorTemperatura.jar" size="20495" download="eager" />
+  </resources>
+<component-desc/>
+  <update check="background"/>
+</jnlp>

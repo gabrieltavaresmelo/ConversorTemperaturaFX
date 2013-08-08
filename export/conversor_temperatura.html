@@ -1,0 +1,25 @@
+<!-- http://mkblog.exadel.com/2009/01/running-javafx-applications-in-a-browser/ -->
+
+<html>
+    <head>
+        <title>JavaFX Echo Application</title>
+    </head>
+    <body>
+        <script src="http://dl.javafx.com/dtfx.js"/>
+	<h1>
+	JavaFX Echo Application
+	</h1>        
+	<script>
+            javafx(
+            {
+                archive: "conversor_temperatura.jar",
+                draggable: false,
+                width: 350,
+                height: 200,
+                code: "Echo",
+                name: "Echo"
+            }
+        );
+        </script>
+    </body>
+</html>
